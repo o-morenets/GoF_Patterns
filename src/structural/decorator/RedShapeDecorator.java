@@ -4,6 +4,7 @@ package structural.decorator;
  * Created by user on 06.11.2014.
  */
 public class RedShapeDecorator extends ShapeDecorator {
+
     protected RedShapeDecorator(Shape decoratedShape) {
         super(decoratedShape);
     }

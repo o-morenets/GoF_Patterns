@@ -6,6 +6,7 @@ import java.util.Hashtable;
  * Created by user on 05.11.2014.
  */
 public class ShapeCache {
+
     private static Hashtable<String, Shape> shapeMap = new Hashtable<>();
 
     public static Shape getShape(String shapeID) throws CloneNotSupportedException {

@@ -4,6 +4,7 @@ package creational.prototype;
  * Created by user on 05.11.2014.
  */
 public abstract class Shape implements Cloneable {
+
     private String id;
     protected String type;
 
