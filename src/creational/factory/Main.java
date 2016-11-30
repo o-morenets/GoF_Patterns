@@ -10,7 +10,7 @@ public class Main {
             sf.getShape("cIrClE").draw();
             sf.getShape("RectAngle").draw();
             sf.getShape("SqUaRe").draw();
-            sf.getShape("КРУГ").draw();
+            sf.getShape("Cone").draw();
         } catch (NullPointerException ex) {
             ex.printStackTrace();
         }

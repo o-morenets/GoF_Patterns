@@ -4,6 +4,10 @@ package behavioral.adapter;
  * Created by user on 06.11.2014.
  */
 public class MediaAdapter implements MediaPlayer {
+    public MediaAdapter(String audioType) {
+
+    }
+
     @Override
     public void play(String audioType, String fileName) {
         switch (audioType.toUpperCase()) {
