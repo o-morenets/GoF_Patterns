@@ -3,7 +3,7 @@ package creational.prototype;
 /**
  * Created by user on 05.11.2014.
  */
-public class Main {
+public class PrototypeExample {
 
     public static void main(String[] args) throws CloneNotSupportedException {
         ShapeCache.loadCache();

@@ -3,7 +3,7 @@ package behavioral.adapter;
 /**
  * Created by user on 06.11.2014.
  */
-public class Main {
+public class AdapterExample {
     public static void main(String[] args) {
         AudioPlayer audioPlayer = new AudioPlayer();
 

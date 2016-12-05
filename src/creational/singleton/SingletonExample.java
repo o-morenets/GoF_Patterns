@@ -3,7 +3,7 @@ package creational.singleton;
 /**
  * Created by user on 04.11.2014.
  */
-public class Administrator {
+class Administrator {
 
     private String name;
     private static Administrator _instance;
@@ -21,5 +21,14 @@ public class Administrator {
 
     public void showName() {
         System.out.println(name);
+    }
+}
+
+public class SingletonExample {
+
+    public static void main(String[] args) {
+        Administrator.get_instance("Наташа").showName();
+        Administrator.get_instance("Вася").showName();
+        Administrator.get_instance("Администратор").showName();
     }
 }

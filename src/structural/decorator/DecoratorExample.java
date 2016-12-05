@@ -3,7 +3,7 @@ package structural.decorator;
 /**
  * Created by user on 06.11.2014.
  */
-public class Main {
+public class DecoratorExample {
 
     public static void main(String[] args) {
         new Circle().draw();

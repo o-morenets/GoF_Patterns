@@ -3,7 +3,7 @@ package behavioral.observer;
 /**
  * Created by user on 05.11.2014.
  */
-public class Main {
+public class ObserverExample {
     public static void main(String[] args) {
         Subject subject = new Subject();
         new BinaryObserver(subject);
