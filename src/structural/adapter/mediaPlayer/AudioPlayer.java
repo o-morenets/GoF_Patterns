@@ -1,4 +1,4 @@
-package behavioral.adapter;
+package structural.adapter.mediaPlayer;
 
 /**
  * Created by user on 06.11.2014.
