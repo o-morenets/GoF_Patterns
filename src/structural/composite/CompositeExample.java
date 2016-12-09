@@ -54,7 +54,7 @@ class Ellipse implements Graphic {
 /**
  * Client
  */
-public class Program {
+public class CompositeExample {
 
     public static void main(String[] args) {
         // Initialize four ellipses
