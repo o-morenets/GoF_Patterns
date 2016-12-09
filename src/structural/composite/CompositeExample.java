@@ -8,9 +8,7 @@ package structural.composite;
 import java.util.List;
 import java.util.ArrayList;
 
-/**
- * "Component"
- */
+/** Component */
 interface Graphic {
 
     // Prints the graphic.
@@ -23,6 +21,7 @@ class CompositeGraphic implements Graphic {
     private List<Graphic> childGraphics = new ArrayList<>();
 
     // Prints the graphic.
+    @Override
     public void print() {
         for (Graphic graphic : childGraphics) {
             graphic.print();
@@ -40,12 +39,11 @@ class CompositeGraphic implements Graphic {
     }
 }
 
-/**
- * "Leaf"
- */
+/** Leaf */
 class Ellipse implements Graphic {
 
     // Prints the graphic.
+    @Override
     public void print() {
         System.out.println("Ellipse");
     }
