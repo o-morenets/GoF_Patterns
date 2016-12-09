@@ -1,6 +1,6 @@
 package behavioral.iterator;
 
-/**
+/*
  * Iterator pattern example
  * Created by a-morenets (alexey.morenets@gmail.com) on 09.12.2016.
  */
