@@ -6,6 +6,9 @@ package creational.factory;
 public class Circle implements Shape {
     private float radius;
 
+    public Circle() {
+    }
+
     public Circle(float radius) {
         this.radius = radius;
     }

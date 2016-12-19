@@ -11,6 +11,6 @@ public class Square extends Shape {
 
     @Override
     protected void draw() {
-        System.out.println("Square");
+        System.out.println("ShapeSquare");
     }
 }

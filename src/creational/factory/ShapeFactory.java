@@ -7,14 +7,14 @@ public class ShapeFactory {
 
     public Shape getShape(String shapeType) {
         Shape shape = null;
-        if (shapeType.equalsIgnoreCase("Circle")) {
-            shape = new Circle(0f);
+        if (shapeType.equalsIgnoreCase("ShapeCircle")) {
+            shape = new Circle();
         } else {
-            if (shapeType.equalsIgnoreCase("Rectangle")) {
-                shape = new Rectangle(0d, 0d);
+            if (shapeType.equalsIgnoreCase("ShapeRectangle")) {
+                shape = new Rectangle();
             } else {
-                if (shapeType.equalsIgnoreCase("Square")) {
-                    shape = new Square(0L);
+                if (shapeType.equalsIgnoreCase("ShapeSquare")) {
+                    shape = new Square();
                 }
             }
         }

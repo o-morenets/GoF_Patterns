@@ -6,6 +6,9 @@ package creational.factory;
 public class Square implements Shape {
     private long x;
 
+    public Square() {
+    }
+
     public Square(long x) {
         this.x = x;
     }

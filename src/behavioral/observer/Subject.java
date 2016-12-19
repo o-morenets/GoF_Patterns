@@ -8,7 +8,7 @@ import java.util.List;
  */
 public class Subject {
     private List<Observer> observers = new ArrayList<>();
-    int state;
+    private int state;
 
     public int getState() {
         return state;
@@ -20,7 +20,7 @@ public class Subject {
     }
 
     private void notifyAllObservers() {
-        for (Observer observer :observers) {
+        for (Observer observer : observers) {
             observer.update();
         }
     }

@@ -10,16 +10,9 @@ public class ObserverExample {
         new HexObserver(subject);
         new OctalObserver(subject);
 
-        System.out.println("First state change:");
+        System.out.println("First state change: 15");
         subject.setState(15);
-        System.out.println("Second state change:");
+        System.out.println("Second state change: 10");
         subject.setState(10);
-
-        subject.setState(10678);
-        subject.setState(-93475);
-        subject.setState(6572);
-        subject.setState(-98515);
-        subject.setState(3094857);
-        subject.setState(-904);
     }
 }

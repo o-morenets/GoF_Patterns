@@ -11,6 +11,6 @@ public class Rectangle extends Shape {
 
     @Override
     protected void draw() {
-        System.out.println("Rectangle");
+        System.out.println("ShapeRectangle");
     }
 }

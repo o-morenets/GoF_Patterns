@@ -1,28 +1,29 @@
 package structural.facade;
 
 /**
+ * Facade pattern example
  * Created by a-morenets (alexey.morenets@gmail.com) on 05.12.2016.
  */
 /* Complex parts */
 
 class CPU {
-    public void freeze() {
+    void freeze() {
     }
 
-    public void jump(long position) {
+    void jump(long position) {
     }
 
-    public void execute() {
+    void execute() {
     }
 }
 
 class Memory {
-    public void load(long position, byte[] data) {
+    void load(long position, byte[] data) {
     }
 }
 
 class HardDrive {
-    public byte[] read(long lba, int size) {
+    byte[] read(long lba, int size) {
         return new byte[0];
     }
 }
@@ -38,13 +39,13 @@ class Computer {
     private Memory memory;
     private HardDrive hardDrive;
 
-    public Computer() {
+    Computer() {
         this.cpu = new CPU();
         this.memory = new Memory();
         this.hardDrive = new HardDrive();
     }
 
-    public void startComputer() {
+    void startComputer() {
         cpu.freeze();
         memory.load(BOOT_ADDRESS, hardDrive.read(BOOT_SECTOR, SECTOR_SIZE));
         cpu.jump(BOOT_ADDRESS);

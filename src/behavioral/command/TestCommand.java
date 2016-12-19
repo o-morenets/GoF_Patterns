@@ -1,6 +1,7 @@
 package behavioral.command;
 
 /**
+ * Command pattern example
  * Created by a-morenets (alexey.morenets@gmail.com) on 05.12.2016.
  */
 
