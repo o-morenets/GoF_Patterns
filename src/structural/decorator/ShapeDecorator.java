@@ -3,11 +3,14 @@ package structural.decorator;
 /**
  * Created by user on 06.11.2014.
  */
-public abstract class ShapeDecorator implements Shape {
+public abstract class ShapeDecorator extends Shape {
 
-    protected Shape decoratedShape;
+    /* Paint outgo */
+    double paintOutgo;
 
-    protected ShapeDecorator(Shape decoratedShape) {
+    Shape decoratedShape;
+
+    ShapeDecorator(Shape decoratedShape) {
         this.decoratedShape = decoratedShape;
     }
 

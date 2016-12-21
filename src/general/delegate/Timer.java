@@ -32,12 +32,12 @@ class ChickenIsReadyAction implements TimerAction {
  * Класс таймера. При определённых условиях вызывается действие TimerAction.
  */
 class Timer {
-    TimerAction action;
+    private TimerAction action;
 
     /**
      * Функция, которую вызывает программист для установки времени.
      */
-    void run() {
+    private void run() {
         if (isTime()) {
             action.onTime();
         }

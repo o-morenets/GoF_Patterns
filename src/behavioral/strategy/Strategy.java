@@ -6,11 +6,11 @@ package behavioral.strategy;
 public class Strategy {
     private Operation operation;
 
-    public Strategy(Operation operation) {
+    Strategy(Operation operation) {
         this.operation = operation;
     }
 
-    public double applyStrategy(double num1, double num2) {
+    double applyStrategy(double num1, double num2) {
         return operation.doOperation(num1, num2);
     }
 }
